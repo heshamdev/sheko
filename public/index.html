@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <header>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>sheko</title>
-  </head>
+  </header>
+  <nav>
+        <div class="nav-wrapper indigo darken-4">
+          <a href="#" class="brand-logo center" style="margin-left : 2%;">Sheko | Monoalphabtic</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
   <body>
-    <noscript>
-      <strong>We're sorry but sheko doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <main id="app">
+      
+    </main>
+      <footer class="page-footer indigo darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Future University in Egypt</h5>
+                <p class="grey-text text-lighten-4">Security Encrytion</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
   </body>
+      <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+  <script type="text/javascript" src="jquery.js"></script>
+  <style type="text/css">
+    body {
+     display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+ }
+ main {
+     flex: 1 0 auto;
+ }
+  </style>
 </html>
